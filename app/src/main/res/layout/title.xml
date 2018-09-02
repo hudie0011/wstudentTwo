@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fad"
+    android:layout_height="?attr/actionBarSize">
+
+    <Button
+        android:background="@drawable/ic_home"
+        android:layout_height="25dp"
+        android:layout_width="25dp"
+        android:id="@+id/back_button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+    android:id="@+id/title_city11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:text="显示城市"
+    android:textSize="25sp"
+    android:textColor="#ff0000"
+    android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/title_update_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="更新时间"
+        android:textSize="25sp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"/>
+</RelativeLayout>
